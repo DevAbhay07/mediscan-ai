@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Upload, Play, Sparkles } from "lucide-react";
+import heroImage from "@assets/image_1756440525134_1756448024666.png";
 
 export default function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -46,7 +47,7 @@ export default function HeroSection() {
         <div className="order-first lg:order-last">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              src={heroImage} 
               alt="Medical AI brain processing data visualization" 
               className="w-full h-80 object-cover rounded-2xl shadow-xl" 
               data-testid="hero-image"
