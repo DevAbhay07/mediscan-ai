@@ -46,8 +46,8 @@ export default function HeroSection() {
         <div className="order-first lg:order-last">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-              alt="Medical AI brain processing data visualization" 
+              src="https://ichef.bbci.co.uk/news/480/cpsprodpb/14643/production/_107032538_gettyimages-920406350.jpg.webp" 
+              alt="Doctor examining chest X-ray scans with AI analysis highlights" 
               className="w-full h-80 object-cover rounded-2xl shadow-xl" 
               data-testid="hero-image"
             />
