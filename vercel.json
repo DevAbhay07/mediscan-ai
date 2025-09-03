@@ -2,10 +2,9 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "client/dist",
-  "installCommand": "npm install",
   "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node"
+    "api/*.ts": {
+      "runtime": "@vercel/node@3.0.7"
     }
   },
   "routes": [
@@ -17,8 +16,5 @@
       "src": "/(.*)",
       "dest": "/client/dist/$1"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
